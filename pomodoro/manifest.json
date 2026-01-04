@@ -1,11 +1,17 @@
 {
     "id": "pomodoro",
     "name": "Pomodoro",
-    "version": "0.0.1",
-    "author": "Tomasz Kaliciak",
-    "description": "Pomodoro",
+    "version": "1.2.0",
+    "author": "User",
+    "description": "Discrete Pomodoro Timer",
     "entryPoints": {
         "main": "Main.qml",
         "barWidget": "BarWidget.qml"
+    },
+    "settings": {
+        "workTime": { "type": "number", "default": 25, "label": "Work (min)", "min": 1, "max": 60 },
+        "shortBreakTime": { "type": "number", "default": 5, "label": "Short Break (min)", "min": 1, "max": 30 },
+        "longBreakTime": { "type": "number", "default": 15, "label": "Long Break (min)", "min": 1, "max": 60 },
+        "sessionsTarget": { "type": "number", "default": 4, "label": "Sessions per Round", "min": 1, "max": 10 }
     }
 }
