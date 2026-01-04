@@ -1,0 +1,11 @@
+{
+    "id": "pomodoro",
+    "name": "Pomodoro",
+    "version": "0.0.1",
+    "author": "Tomasz Kaliciak",
+    "description": "Pomodoro",
+    "entryPoints": {
+        "main": "Main.qml",
+        "barWidget": "BarWidget.qml"
+    }
+}
